@@ -4,7 +4,7 @@ from link_bio.pages.index import index
 from link_bio.pages.courses import courses
 
 class State(rx.State):
-    pass
+    """Define you app here"""
 
 app = rx.App(
     stylesheets=STYLESHEETS,
